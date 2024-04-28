@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+/* Button */
+.btn-bg {
+  background-color: #85af4b;
+  color: #fff;
+  display: inline-block;
+  padding: 10px 40px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.btn-bg:hover {
+  background-color: #333;
+  color: #fff;
+}
+.btn-border {
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 40px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn-border:hover {
+  background-color: #85af4b;
+  border-color: #85af4b;
+  color: #fff;
+}
+/* Header Top */
+section.header-top-area {
+  background-color: #095dc7;
+  padding: 16px 0;
+}
+
+.header-top-social a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.header-top-info a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.header-top-info i {
+  margin-right: 10px;
+}
+
+/* Header Area */
+.mainmenu li {
+  margin-left: 24px;
+}
+
+.mainmenu li a {
+  color: #012c44;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+}
+
+.mainmenu li a:hover {
+  color: #095dc7;
+}
+
+/* Banner area */
+.banner-area {
+  background-size: cover;
+  background-position: center;
+  padding: 280px 0 265px;
+}
+
+.banner-area h1 {
+  font-size: 82.47px;
+  font-weight: 700;
+}
+
+.banner-area p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.banner-btn a {
+  margin: 0 10px;
+}
+
+.banner-btn {
+  margin-top: 80px;
+}
