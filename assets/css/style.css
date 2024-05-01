@@ -198,3 +198,20 @@ section.header-top-area {
   padding: 10px 35px;
   border-radius: 50px;
 }
+
+/* Counter-area */
+.counter-area {
+  background-color: #f8fafc;
+  padding: 95px 0;
+}
+
+.single-counter h4 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.single-counter p {
+  font-size: 14px;
+  margin-top: 20px;
+}
