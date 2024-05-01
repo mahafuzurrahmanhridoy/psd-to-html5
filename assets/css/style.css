@@ -211,7 +211,64 @@ section.header-top-area {
   line-height: 28px;
 }
 
+/* FAQ */
+
 .single-counter p {
   font-size: 14px;
   margin-top: 20px;
+}
+
+.faq-area {
+  padding: 120px 0 145px;
+}
+
+.faq-area h4 {
+  font-size: 36px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.faq-area p {
+  font-size: 14px;
+}
+
+.faq-author h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.faq-author h4 span {
+  font-size: 12px;
+  margin-top: -5px;
+}
+
+.faq-modify .accordion-button {
+  background-color: transparent;
+  padding: 20px 0px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111;
+  padding-left: 30px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.faq-modify .accordion-item {
+  border: 0;
+}
+
+.faq-modify .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq-modify .accordion-button::after {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.faq-modify .accordion-body {
+    padding-left: 30px;
 }
