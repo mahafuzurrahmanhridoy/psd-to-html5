@@ -270,5 +270,24 @@ section.header-top-area {
 }
 
 .faq-modify .accordion-body {
-    padding-left: 30px;
+  padding-left: 30px;
+}
+
+/* CTA */
+.cta-area {
+  background-size: cover;
+  background-position: center;
+  padding: 125px 0;
+}
+
+.cta-area h4 {
+  font-size: 32px;
+  line-height: 24px;
+}
+
+.cta-area p {
+  max-width: 740px;
+  margin: 0 auto;
+  font-size: 14px;
+  margin: 40px auto 55px;
 }
