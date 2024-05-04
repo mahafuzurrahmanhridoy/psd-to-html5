@@ -8,4 +8,13 @@ $(document).ready(function () {
       enabled: true,
     },
   });
+
+  // Testimonials slider
+  $(".testimonials").slick({
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    loop: true,
+    autoplaySpeed: 1000,
+  });
 });
