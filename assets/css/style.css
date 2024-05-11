@@ -425,3 +425,45 @@ section.header-top-area {
 .testimonials .slick-dots li.slick-active button {
   background-color: #095dc7;
 }
+
+/* Teams */
+.teams-area {
+  padding: 125px 0;
+}
+
+.team-img {
+  background-size: cover;
+  background-position: center;
+  padding-top: 120%;
+}
+
+.single-team h4 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.single-team h4 span {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #999;
+}
+
+.single-team p {
+  font-size: 14px;
+  color: #666;
+}
+
+.single-team a {
+  display: inline-block;
+  color: #bbb;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.single-team a:hover {
+  color: #333;
+}
