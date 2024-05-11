@@ -467,3 +467,14 @@ section.header-top-area {
 .single-team a:hover {
   color: #333;
 }
+
+/* Clients */
+
+.clients-area {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+}
+
+.clients img {
+  width: auto !important;
+}

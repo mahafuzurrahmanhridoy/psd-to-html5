@@ -17,4 +17,15 @@ $(document).ready(function () {
     loop: true,
     autoplaySpeed: 1000,
   });
+
+  // Clients slider
+  $(".clients").slick({
+    arrows: false,
+    dots: false,
+    autoplay: true,
+    loop: true,
+    autoplaySpeed: 1000,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+  });
 });
