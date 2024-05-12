@@ -478,3 +478,131 @@ section.header-top-area {
 .clients img {
   width: auto !important;
 }
+
+/* Footer Area */
+.footer-area {
+  background-color: #02295a;
+  color: #fff;
+  padding: 90px 0;
+}
+
+.footer-title {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.footer-area ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-area ul.footer-info li {
+  margin-bottom: 20px;
+  color: #bbb;
+}
+
+.footer-social a {
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+.footer-social a.fb {
+  background-color: #365493;
+}
+.footer-social a.linkedin {
+  background-color: #33ccff;
+}
+.footer-social a.tumblr {
+  background-color: #d44132;
+}
+.footer-social a.twitter {
+  background-color: #cb2027;
+}
+
+.footer-area ul li a {
+  color: #bbb;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-blog {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.footer-blog img {
+  margin-right: 20px;
+}
+
+.footer-blog a {
+  font-size: 13px;
+  color: #bbb;
+  line-height: 24px;
+}
+
+.footer-area p {
+  font-size: 14px;
+}
+
+.footer-area form input[type="email"] {
+  background-color: #003f8d;
+  border: 0;
+  text-align: center;
+  padding: 20px 30px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.footer-area form input[type="email"]::placeholder{
+  color: #fff;
+  opacity: 0.5;
+}
+
+.footer-area form input[type="submit"] {
+  background-color: #85af4b;
+  border: 0;
+  padding: 20px 0;
+  margin-top: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  width: 100%;
+}
+
+/* Footer Bottom Area */
+.footer-bottom-area {
+  background-color: #001b3d;
+  padding: 35px 0;
+}
+
+.footer-bottom-area p {
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer-bottom-area p i {
+  color: #85af4b;
+}
+
+.footer-bottom-area a {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 30px;
+  font-size: 13px;
+}
