@@ -685,3 +685,112 @@ section.header-top-area {
 .about-video a i {
   font-size: 60px;
 }
+
+
+/* Blog Page */
+.blogs-area {
+  padding: 80px 0 95px;
+}
+
+.blog-img {
+  padding-top: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.single-blog{
+  margin-bottom: 60px;
+}
+
+.single-blog h4 {
+  margin: 45px 0 30px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.single-blog h4 a {
+  color: #111;
+}
+
+.single-blog p {
+  font-size: 14px;
+}
+
+.blog-meta {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+
+.blog-meta-left i {
+  margin-right: 10px;
+  color: #095dc7;
+}
+
+.blog-meta-left a {
+  margin-right: 25px;
+  font-size: 14px;
+  color: #999;
+}
+
+.blog-meta-btn a {
+  color: #999;
+  font-size: 14px;
+}
+
+.blog-meta-btn i {
+  margin-left: 12px;
+}
+
+
+.single-sidebar h4 {
+  font-size: 20px;
+  line-height: 48px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.single-sidebar h4::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #095dc7;
+  left: 0;
+  bottom: 0;
+}
+
+h4 {}
+
+.single-sidebar p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.single-sidebar input[type="email"] {
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+
+.single-sidebar button {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  background-color: transparent;
+  border: 0;
+  color: #095dc7;
+  font-size: 20px;
+}
+
+.single-sidebar form {
+  position: relative;
+  padding-bottom: 20px;
+}
