@@ -1,9 +1,18 @@
 $(document).ready(function () {
   // counter up
   $(".counter").counterUp();
-  // Magnific popup
+
+  // Magnific popup Image
   $(".image-popup").magnificPopup({
     type: "image",
+    gallery: {
+      enabled: true,
+    },
+  });
+
+  // Magnific popup Video
+  $(".about-video-popup").magnificPopup({
+    type: "iframe",
     gallery: {
       enabled: true,
     },
