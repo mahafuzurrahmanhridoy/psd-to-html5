@@ -10,6 +10,14 @@ $(document).ready(function () {
     },
   });
 
+  // Magnific popup project
+  $(".project-popup").magnificPopup({
+    type: "image",
+    gallery: {
+      enabled: true,
+    },
+  });
+
   // Magnific popup Video
   $(".about-video-popup").magnificPopup({
     type: "iframe",
