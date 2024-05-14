@@ -45,4 +45,22 @@ $(document).ready(function () {
     slidesToShow: 5,
     slidesToScroll: 1,
   });
+
+  // Projects Filter
+
+  // init Isotope
+  var $grid = $(".project-items").isotope({
+    // options
+  });
+  // filter items on button click
+  $(".projects-menu").on("click", "li", function () {
+    var filterValue = $(this).attr("data-filter");
+    $grid.isotope({ filter: filterValue });
+  });
+
+  // Active menu
+  $(".projects-menu").on("click", "li", function () {
+    $(this).siblings(".active").removeClass("active");
+    $(this).addClass("active");
+  });
 });

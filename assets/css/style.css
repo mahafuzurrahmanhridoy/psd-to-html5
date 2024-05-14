@@ -860,3 +860,28 @@ section.header-top-area {
 .projects-gallery a img {
   width: auto;
 }
+
+
+/* Projects */
+
+.projects-page {
+    padding: 90px 0 150px;
+}
+
+
+.projects-menu {
+    list-style: none;
+    margin-bottom: 45px;
+}
+
+.projects-menu li {
+    margin: 0 20px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #111;
+    cursor: pointer;
+}
+
+.projects-menu li.active{
+  color: #095dc7;
+}
